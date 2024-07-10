@@ -1,0 +1,8 @@
+cover_dir = '/home/labs/bfreich/maork/CoSMIC_for_SMURF/CoSMIC/combinatorial_primer_selection/';
+ExpName = 'Master_tutorial_3_5_6';
+primer_set_file = '/home/labs/bfreich/maork/CoSMIC_for_SMURF/CoSMIC/CoSMIC_paper_primers';
+new_db_dir_name = '/home/labs/bfreich/maork/CoSMIC_for_SMURF/CoSMIC/augmented_dB_Plants/';
+db_name = 'database_augmented_mock_Plants';
+database_len = 200;
+REGIONS = [3,5,6];
+kmer_len = 135;

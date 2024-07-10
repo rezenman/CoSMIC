@@ -1,0 +1,166 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="/home/shental/6Reg/Experiment/CoSMIC/add_entries_to_db_for_Arik.prj" location="/home/shental/6Reg/Experiment/CoSMIC" name="add_entries_to_db_for_Arik" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>add_entries_to_db_for_Arik</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>/add_entries_to_db_for_Arik/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>In the following directions, replace MR/v97 by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+(1) Set the environment variable XAPPLRESDIR to this value:
+
+MR/v97/X11/app-defaults
+
+
+(2) If the environment variable LD_LIBRARY_PATH is undefined, set it to the following:
+
+MR/v97/runtime/glnxa64:MR/v97/bin/glnxa64:MR/v97/sys/os/glnxa64:MR/v97/sys/opengl/lib/glnxa64
+
+If it is defined, set it to the following:
+
+${LD_LIBRARY_PATH}:MR/v97/runtime/glnxa64:MR/v97/bin/glnxa64:MR/v97/sys/os/glnxa64:MR/v97/sys/opengl/lib/glnxa64</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/add_entries_to_db_for_Arik</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 add_entries_to_db_for_Arik -? 
+	 add_entries_to_db_for_Arik old_db_fasta added_db_fasta new_db_dir_name new_db_file_name 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 old_db_fasta added_db_fasta new_db_dir_name new_db_file_name  input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>/home/shental/6Reg/Experiment/Reich/mFiles/dB/add_entries_to_db_for_Arik.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>/RG/compbio/groupData/WIS_data/fenoam_ph2users/PhD/BACTERIA/6RegionsAlgo/Experiment/Reich/mFiles/dB/verify_integrity.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_testing" name="add_entries_to_db_for_Arik" optional="false">/home/shental/6Reg/Experiment/CoSMIC/add_entries_to_db_for_Arik/for_testing/add_entries_to_db_for_Arik</file>
+      <file location="${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_testing" name="splash.png" optional="false">/home/shental/6Reg/Experiment/CoSMIC/add_entries_to_db_for_Arik/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_testing" name="run_add_entries_to_db_for_Arik.sh" optional="false">/home/shental/6Reg/Experiment/CoSMIC/add_entries_to_db_for_Arik/for_testing/run_add_entries_to_db_for_Arik.sh</file>
+      <file location="${PROJECT_ROOT}/add_entries_to_db_for_Arik/for_testing" name="readme.txt" optional="true">/home/shental/6Reg/Experiment/CoSMIC/add_entries_to_db_for_Arik/for_testing/readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/opt/apps/matlab/R2019b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.18.0-372.32.1.el8_6.x86_64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

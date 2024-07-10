@@ -1,0 +1,22 @@
+name: CoSMIC_analysis_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - cd-hit=4.8.1
+  - cutadapt=4.2
+  - seqkit=2.3.1
+  - r-base=4.0.0
+  - seqtk=1.3
+  - bbmap
+  - r-biocmanager
+  - bioconductor-dada2
+  - bioconductor-biostrings
+  - pip:
+      - numpy
+      - pandas
+      - matplotlib
+      - seaborn
+      - biopython
